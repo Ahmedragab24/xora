@@ -1,8 +1,6 @@
 <div align="center">
   <br />
-    <a href="https://youtu.be/ukiGFmZ32YA?feature=shared" target="_blank">
       <img src="https://github.com/user-attachments/assets/a582919b-1bdf-4cb2-af44-69b2159cf109" alt="Project Banner">
-    </a>
   <br />
 
   <div>
@@ -13,9 +11,6 @@
 
 <h3 align="center">Modern UI/UX SaaS Website</h3>
 
-   <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
-    </div>
 </div>
 
 ## 📋 <a name="table">Table of Contents</a>
@@ -26,28 +21,17 @@
 4. 🤸 [Quick Start](#quick-start)
 5. 🕸️ [Snippets (Code to Copy)](#snippets)
 6. 🔗 [Assets](#links)
-7. 🚀 [More](#more)
 
 ## 🚨 Tutorial
 
 This repository contains the code corresponding to an in-depth tutorial available on our YouTube
-channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>.
-
-If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects
-like these step-by-step in a beginner-friendly manner!
-
-<a href="https://youtu.be/ukiGFmZ32YA?feature=shared" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
+channel.
 
 ## <a name="introduction">🤖 Introduction</a>
 
 Xora is a Modern UI/UX SaaS website developed using React.js and Tailwind CSS that exemplifies modern UI/UX principles.
 Its sleek design, seamless animations, and overall user experience set a high standard, serving as a reference or
 inspiration for future modern applications or websites in general.
-
-If you're getting started and need assistance or face any bugs, join our active Discord community with over **34k+**
-members. It's a place where people help each other out.
-
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
@@ -115,86 +99,86 @@ Open [http://localhost:5173](http://localhost:5173) in your browser to view the 
 ```jsx
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       colors: {
-        p1: '#2EF2FF',
-        p2: '#3C52D9',
-        p3: '#C8EA80',
-        p4: '#EAEDFF',
-        p5: '#C4CBF5',
-        s1: '#080D27',
-        s2: '#0C1838',
-        s3: '#334679',
-        s4: '#1959AD',
-        s5: '#263466',
+        p1: "#2EF2FF",
+        p2: "#3C52D9",
+        p3: "#C8EA80",
+        p4: "#EAEDFF",
+        p5: "#C4CBF5",
+        s1: "#080D27",
+        s2: "#0C1838",
+        s3: "#334679",
+        s4: "#1959AD",
+        s5: "#263466",
         black: {
-          DEFAULT: '#000000',
-          100: '#05091D',
+          DEFAULT: "#000000",
+          100: "#05091D",
         },
       },
       boxShadow: {
-        100: '0px 4px 4px rgba(0, 0, 0, 0.25), 0px 16px 24px rgba(0, 0, 0, 0.25), inset 0px 3px 6px #1959AD',
-        200: '0px 4px 4px rgba(0, 0, 0, 0.25), 0px 16px 24px rgba(0, 0, 0, 0.25), inset 0px 4px 10px #3391FF',
-        300: '0px 4px 4px rgba(0, 0, 0, 0.25), 0px 16px 24px rgba(0, 0, 0, 0.25), inset 0px 3px 6px #1959AD',
-        400: 'inset 0px 2px 4px 0 rgba(255, 255, 255, 0.05)',
-        500: '0px 16px 24px rgba(0, 0, 0, 0.25), 0px -14px 48px rgba(40, 51, 111, 0.7)',
+        100: "0px 4px 4px rgba(0, 0, 0, 0.25), 0px 16px 24px rgba(0, 0, 0, 0.25), inset 0px 3px 6px #1959AD",
+        200: "0px 4px 4px rgba(0, 0, 0, 0.25), 0px 16px 24px rgba(0, 0, 0, 0.25), inset 0px 4px 10px #3391FF",
+        300: "0px 4px 4px rgba(0, 0, 0, 0.25), 0px 16px 24px rgba(0, 0, 0, 0.25), inset 0px 3px 6px #1959AD",
+        400: "inset 0px 2px 4px 0 rgba(255, 255, 255, 0.05)",
+        500: "0px 16px 24px rgba(0, 0, 0, 0.25), 0px -14px 48px rgba(40, 51, 111, 0.7)",
       },
       fontFamily: {
-        inter: ['Inter', 'sans-serif'],
-        poppins: ['Poppins', 'sans-serif'],
+        inter: ["Inter", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"],
       },
       transitionProperty: {
-        borderColor: 'border-color',
+        borderColor: "border-color",
       },
       spacing: {
-        '1/5': '20%',
-        '2/5': '40%',
-        '3/5': '60%',
-        '4/5': '80%',
-        '3/20': '15%',
-        '7/20': '35%',
-        '9/20': '45%',
-        '11/20': '55%',
-        '13/20': '65%',
-        '15/20': '75%',
-        '17/20': '85%',
-        '19/20': '95%',
-        22: '88px',
-        100: '100px',
-        512: '512px',
-        330: '330px',
-        388: '388px',
-        400: '400px',
-        440: '440px',
-        640: '640px',
-        960: '960px',
-        1230: '1230px',
+        "1/5": "20%",
+        "2/5": "40%",
+        "3/5": "60%",
+        "4/5": "80%",
+        "3/20": "15%",
+        "7/20": "35%",
+        "9/20": "45%",
+        "11/20": "55%",
+        "13/20": "65%",
+        "15/20": "75%",
+        "17/20": "85%",
+        "19/20": "95%",
+        22: "88px",
+        100: "100px",
+        512: "512px",
+        330: "330px",
+        388: "388px",
+        400: "400px",
+        440: "440px",
+        640: "640px",
+        960: "960px",
+        1230: "1230px",
       },
       zIndex: {
-        1: '1',
-        2: '2',
-        4: '4',
+        1: "1",
+        2: "2",
+        4: "4",
       },
       lineHeight: {
-        12: '48px',
+        12: "48px",
       },
       borderRadius: {
-        14: '14px',
-        20: '20px',
-        40: '40px',
-        half: '50%',
-        '7xl': '40px',
+        14: "14px",
+        20: "20px",
+        40: "40px",
+        half: "50%",
+        "7xl": "40px",
       },
       flex: {
-        50: '0 0 50%',
-        320: '1px 0 320px',
-        300: '0 0 300px',
-        540: '0 0 540px',
-        280: '0 0 280px',
-        256: '0 0 256px',
-        100: '0 0 100%',
+        50: "0 0 50%",
+        320: "1px 0 320px",
+        300: "0 0 300px",
+        540: "0 0 540px",
+        280: "0 0 280px",
+        256: "0 0 256px",
+        100: "0 0 100%",
       },
     },
   },
@@ -208,7 +192,7 @@ export default {
 <summary><code>index.css</code></summary>
 
 ```css
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -535,247 +519,247 @@ export default {
 ```jsx
 export const features = [
   {
-    id: '0',
-    icon: '/images/feature-1.png',
-    caption: 'Easy integration',
-    title: 'Work smarter not harder',
+    id: "0",
+    icon: "/images/feature-1.png",
+    caption: "Easy integration",
+    title: "Work smarter not harder",
     text: "With Xora, tedious tasks are history. Automation and smart processes bring your productivity to new heights. It's like having an extra cup of coffee, but without the jitters.",
     button: {
-      icon: '/images/magictouch.svg',
-      title: 'Watch the demo',
+      icon: "/images/magictouch.svg",
+      title: "Watch the demo",
     },
   },
   {
-    id: '1',
-    icon: '/images/feature-2.png',
-    caption: 'Secure & trustworthy',
-    title: 'Sleep easy, we got your back',
-    text: 'Your data security is our priority. With state-of-the-art encryption and robust privacy controls, Xora helps keeps your information secure and locked up tighter than Fort Knox.',
+    id: "1",
+    icon: "/images/feature-2.png",
+    caption: "Secure & trustworthy",
+    title: "Sleep easy, we got your back",
+    text: "Your data security is our priority. With state-of-the-art encryption and robust privacy controls, Xora helps keeps your information secure and locked up tighter than Fort Knox.",
     button: {
-      icon: '/images/docs.svg',
-      title: 'Read the docs',
+      icon: "/images/docs.svg",
+      title: "Read the docs",
     },
   },
 ];
 
 export const details = [
   {
-    id: '0',
-    icon: '/images/detail-1.png',
-    title: 'AI automated video editing',
+    id: "0",
+    icon: "/images/detail-1.png",
+    title: "AI automated video editing",
   },
   {
-    id: '1',
-    icon: '/images/detail-2.png',
-    title: 'Collaborate with your team',
+    id: "1",
+    icon: "/images/detail-2.png",
+    title: "Collaborate with your team",
   },
   {
-    id: '2',
-    icon: '/images/detail-3.png',
-    title: 'Ultra fast cloud-engine',
+    id: "2",
+    icon: "/images/detail-3.png",
+    title: "Ultra fast cloud-engine",
   },
   {
-    id: '3',
-    icon: '/images/detail-4.png',
-    title: '24 / 7 Customer support',
+    id: "3",
+    icon: "/images/detail-4.png",
+    title: "24 / 7 Customer support",
   },
 ];
 
 export const faq = [
   {
-    id: '0',
-    question: 'How easy is it to setup Xora?',
+    id: "0",
+    question: "How easy is it to setup Xora?",
     answer:
-      'Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.',
+      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
   },
   {
-    id: '1',
-    question: 'Can I integrate Xora with other platforms?',
+    id: "1",
+    question: "Can I integrate Xora with other platforms?",
     answer:
-      'Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.',
+      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
   },
   {
-    id: '2',
-    question: 'How often do you add new content?',
+    id: "2",
+    question: "How often do you add new content?",
     answer:
-      'Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.',
+      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
   },
   {
-    id: '3',
-    question: 'What your refund policy?',
+    id: "3",
+    question: "What your refund policy?",
     answer:
-      'Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.',
+      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
   },
   {
-    id: '4',
-    question: 'Do you have corporate plans?',
+    id: "4",
+    question: "Do you have corporate plans?",
     answer:
-      'Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.',
+      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
   },
   {
-    id: '5',
-    question: 'What happens when I’m out of storage?',
+    id: "5",
+    question: "What happens when I’m out of storage?",
     answer:
-      'Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.',
+      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
   },
   {
-    id: '6',
-    question: 'Can I upgrade my plan?',
+    id: "6",
+    question: "Can I upgrade my plan?",
     answer:
-      'Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.',
+      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
   },
   {
-    id: '7',
-    question: 'How do I invite my team?',
+    id: "7",
+    question: "How do I invite my team?",
     answer:
-      'Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.',
+      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
   },
   {
-    id: '8',
-    question: 'Do you offer training for individuals and teams?',
+    id: "8",
+    question: "Do you offer training for individuals and teams?",
     answer:
-      'Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.',
+      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
   },
   {
-    id: '9',
-    question: 'I’m locked out of my account what do I do?',
+    id: "9",
+    question: "I’m locked out of my account what do I do?",
     answer:
-      'Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.',
+      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
   },
 ];
 
 export const plans = [
   {
-    id: '0',
-    title: 'Core',
+    id: "0",
+    title: "Core",
     priceMonthly: 19,
     priceYearly: 12,
-    caption: 'Best for solo creators',
+    caption: "Best for solo creators",
     features: [
-      '100MB Cloud storage',
-      '100+ prompt templates',
-      '5 projects',
-      '24/7 support',
+      "100MB Cloud storage",
+      "100+ prompt templates",
+      "5 projects",
+      "24/7 support",
     ],
-    icon: '/images/circle.svg',
-    logo: '/images/plan-1.png',
+    icon: "/images/circle.svg",
+    logo: "/images/plan-1.png",
   },
   {
-    id: '1',
-    title: 'Overdrive',
+    id: "1",
+    title: "Overdrive",
     priceMonthly: 79,
     priceYearly: 59,
-    caption: 'Most popular plan',
+    caption: "Most popular plan",
     features: [
-      'All Starter features',
-      '1TB additional storage',
-      'Unlimited projects',
-      'Analytics',
+      "All Starter features",
+      "1TB additional storage",
+      "Unlimited projects",
+      "Analytics",
     ],
-    icon: '/images/triangle.svg',
-    logo: '/images/plan-2.png',
+    icon: "/images/triangle.svg",
+    logo: "/images/plan-2.png",
   },
   {
-    id: '2',
-    title: 'Team',
+    id: "2",
+    title: "Team",
     priceMonthly: 39,
     priceYearly: 29,
-    caption: 'Exclusively for teams',
+    caption: "Exclusively for teams",
     features: [
-      'All Overdrive features',
-      '10TB additional storage',
-      '50% off per member',
-      'Real-time collaboration',
+      "All Overdrive features",
+      "10TB additional storage",
+      "50% off per member",
+      "Real-time collaboration",
     ],
-    icon: '/images/hexagon.svg',
-    logo: '/images/plan-3.png',
+    icon: "/images/hexagon.svg",
+    logo: "/images/plan-3.png",
   },
 ];
 
 export const testimonials = [
   {
-    id: '0',
-    name: 'Jessica Saunders',
-    role: 'Globalnomads',
-    avatarUrl: '/images/testimonials/jessica-saunders.png',
+    id: "0",
+    name: "Jessica Saunders",
+    role: "Globalnomads",
+    avatarUrl: "/images/testimonials/jessica-saunders.png",
     comment:
       "Xora's customer support is second to none! They’re like my tech superheroes, always there when I need them.",
   },
   {
-    id: '1',
-    name: 'Mark Erixon',
-    role: 'Vid capital intl',
-    avatarUrl: '/images/testimonials/mark-erixon.png',
+    id: "1",
+    name: "Mark Erixon",
+    role: "Vid capital intl",
+    avatarUrl: "/images/testimonials/mark-erixon.png",
     comment:
       "I was skeptical at first, but now I can't imagine our content operations without it. It's that impactful.",
   },
   {
-    id: '2',
-    name: 'Melanie Hurst',
-    role: 'Cyberleap',
-    avatarUrl: '/images/testimonials/melanie-hurst.png',
+    id: "2",
+    name: "Melanie Hurst",
+    role: "Cyberleap",
+    avatarUrl: "/images/testimonials/melanie-hurst.png",
     comment:
       "Adopting this software was a breeze. It's made everyday tasks so much simpler.",
   },
   {
-    id: '3',
-    name: 'Alicia Barker',
-    role: 'Cyberleap',
-    avatarUrl: '/images/testimonials/alicia-barker.png',
+    id: "3",
+    name: "Alicia Barker",
+    role: "Cyberleap",
+    avatarUrl: "/images/testimonials/alicia-barker.png",
     comment:
       "The analytics feature is like having a personal fortune teller. It's been instrumental in guiding our business decisions.",
   },
   {
-    id: '4',
-    name: 'Becky Snider',
-    role: 'Floclips',
-    avatarUrl: '/images/testimonials/becky-snider.png',
+    id: "4",
+    name: "Becky Snider",
+    role: "Floclips",
+    avatarUrl: "/images/testimonials/becky-snider.png",
     comment:
       "Switched to Xora last month, and I'm already seeing results. Best decision for our team!",
   },
   {
-    id: '5',
-    name: 'Jim Bradley',
-    role: 'Vid capital intl',
-    avatarUrl: '/images/testimonials/jim-bradley.png',
+    id: "5",
+    name: "Jim Bradley",
+    role: "Vid capital intl",
+    avatarUrl: "/images/testimonials/jim-bradley.png",
     comment:
-      'The efficiency boost is undeniable. This platform has transformed our workflow, forever.',
+      "The efficiency boost is undeniable. This platform has transformed our workflow, forever.",
   },
 ];
 
 export const logos = [
   {
-    id: '0',
-    title: 'Afterpay',
-    url: '/images/logos/afterpay.svg',
+    id: "0",
+    title: "Afterpay",
+    url: "/images/logos/afterpay.svg",
     width: 156,
     height: 48,
   },
   {
-    id: '1',
-    title: 'Amplitude',
-    url: '/images/logos/amplitude.svg',
+    id: "1",
+    title: "Amplitude",
+    url: "/images/logos/amplitude.svg",
     width: 194,
     height: 48,
   },
   {
-    id: '2',
-    title: 'Sonos',
-    url: '/images/logos/sonos.svg',
+    id: "2",
+    title: "Sonos",
+    url: "/images/logos/sonos.svg",
     width: 115,
     height: 48,
   },
   {
-    id: '3',
-    title: 'Maze',
-    url: '/images/logos/maze.svg',
+    id: "3",
+    title: "Maze",
+    url: "/images/logos/maze.svg",
     width: 142,
     height: 48,
   },
   {
-    id: '4',
-    title: 'Drips',
-    url: '/images/logos/drips.svg',
+    id: "4",
+    title: "Drips",
+    url: "/images/logos/drips.svg",
     width: 77,
     height: 48,
   },
@@ -788,8 +772,7 @@ export const Ios = () => {
       height="32"
       viewBox="0 0 32 32"
       fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
+      xmlns="http://www.w3.org/2000/svg">
       <path
         d="M24.9404 17.0175C24.9566 15.791 25.2903 14.5884 25.9105 13.5217C26.5307 12.4549 27.4173 11.5586 28.4876 10.9162C27.8077 9.96818 26.9106 9.18798 25.8677 8.63759C24.8249 8.0872 23.6649 7.78178 22.48 7.74559C19.9523 7.48658 17.5019 9.22215 16.2138 9.22215C14.9009 9.22215 12.9177 7.77131 10.7822 7.8142C9.40087 7.85777 8.05467 8.2499 6.87475 8.95239C5.69483 9.65487 4.72143 10.6438 4.04939 11.8227C1.13826 16.7431 3.3097 23.9744 6.09832 27.9516C7.49352 29.8992 9.12411 32.0746 11.2577 31.9975C13.3456 31.913 14.1253 30.6978 16.6456 30.6978C19.1424 30.6978 19.874 31.9975 22.0509 31.9484C24.2912 31.9129 25.7028 29.9922 27.049 28.0262C28.0514 26.6385 28.8228 25.1048 29.3345 23.4819C28.0329 22.9445 26.9222 22.0449 26.1408 20.8954C25.3594 19.7458 24.942 18.3971 24.9404 17.0175Z"
         fill="#EAEDFF"
@@ -809,8 +792,7 @@ export const Android = () => {
       height="32"
       viewBox="0 0 33 32"
       fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
+      xmlns="http://www.w3.org/2000/svg">
       <path
         d="M4.74 0.0459256L22.8329 10.1427L18.5589 14.2804L4.37614 0.543765C4.12087 0.295202 4.41704 -0.131925 4.72872 0.0394973L4.74 0.0459256Z"
         fill="#EAEDFF"
@@ -838,8 +820,7 @@ export const Windows = () => {
       height="32"
       viewBox="0 0 33 32"
       fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
+      xmlns="http://www.w3.org/2000/svg">
       <path
         d="M17.674 2.64859L29.4077 0.0307338C30.3171 -0.165605 31.1678 0.603406 31.1678 1.63418V12.7273C31.1678 13.6272 30.5078 14.3635 29.7011 14.3635H17.9674C17.1607 14.3635 16.5006 13.6272 16.5006 12.7273V4.25204C16.5006 3.46669 16.9846 2.79585 17.674 2.64859Z"
         fill="#EAEDFF"
@@ -867,8 +848,7 @@ export const Web = () => {
       height="32"
       viewBox="0 0 33 32"
       fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
+      xmlns="http://www.w3.org/2000/svg">
       <path
         d="M12.5484 0.847986C11.8284 2.95995 11.3164 5.15192 10.9164 7.34388C14.6285 6.92789 18.3727 6.92789 22.0848 7.34388C21.6848 5.15192 21.1728 2.97595 20.4528 0.847986C20.4307 0.759613 20.4238 0.686493 20.4164 0.607564C20.4131 0.572174 20.4097 0.535616 20.4048 0.495992C19.1567 0.191997 17.8447 0 16.5006 0C15.1405 0 13.8445 0.191997 12.5804 0.495992C12.5741 0.546895 12.5728 0.592737 12.5715 0.637543C12.5696 0.7054 12.5677 0.770896 12.5484 0.847986Z"
         fill="#EAEDFF"
@@ -911,55 +891,55 @@ export const Web = () => {
 
 export const links = [
   {
-    id: '0',
-    title: 'Ios',
+    id: "0",
+    title: "Ios",
     icon: <Ios />,
-    url: '#',
+    url: "#",
   },
   {
-    id: '1',
-    title: 'Android',
+    id: "1",
+    title: "Android",
     icon: <Android />,
-    url: '#',
+    url: "#",
   },
   {
-    id: '2',
-    title: 'Windows',
+    id: "2",
+    title: "Windows",
     icon: <Windows />,
-    url: '#',
+    url: "#",
   },
   {
-    id: '3',
-    title: 'Web',
+    id: "3",
+    title: "Web",
     icon: <Web />,
-    url: '#',
+    url: "#",
   },
 ];
 
 export const socials = [
   {
-    id: '0',
-    title: 'x',
-    icon: '/images/socials/x.svg',
-    url: '#',
+    id: "0",
+    title: "x",
+    icon: "/images/socials/x.svg",
+    url: "#",
   },
   {
-    id: '1',
-    title: 'Threads',
-    icon: '/images/socials/threads.svg',
-    url: '#',
+    id: "1",
+    title: "Threads",
+    icon: "/images/socials/threads.svg",
+    url: "#",
   },
   {
-    id: '2',
-    title: 'Instagram',
-    icon: '/images/socials/instagram.svg',
-    url: '#',
+    id: "2",
+    title: "Instagram",
+    icon: "/images/socials/instagram.svg",
+    url: "#",
   },
   {
-    id: '3',
-    title: 'Discord',
-    icon: '/images/socials/discord.svg',
-    url: '#',
+    id: "3",
+    title: "Discord",
+    icon: "/images/socials/discord.svg",
+    url: "#",
   },
 ];
 ```
@@ -977,20 +957,18 @@ const Marker = ({ fill }) => {
       height="22"
       viewBox="0 0 8 22"
       fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
+      xmlns="http://www.w3.org/2000/svg">
       <path
         fillRule="evenodd"
         clipRule="evenodd"
         d="M2.5 0H0.5V4V18V22H2.5V16.25L7.63991 11.7526C8.09524 11.3542 8.09524 10.6458 7.63991 10.2474L2.5 5.75V0Z"
-        fill={fill || '#2EF2FF'}
+        fill={fill || "#2EF2FF"}
       />
     </svg>
   );
 };
 
 export default Marker;
-
 ```
 
 </details>
@@ -1000,13 +978,4 @@ export default Marker;
 Assets used in the project can be
 found [here](https://drive.google.com/file/d/1u-l3p3qCnrwmWq5-bG7OkfCXFPYM9t5z/view?usp=sharing)
 
-## <a name="more">🚀 More</a>
-
-**Advance your skills with Next.js Pro Course**
-
-Enjoyed creating this project? Dive deeper into our PRO courses for a richer learning experience. They're packed with detailed explanations, cool features, and exercises to boost your skills. Give it a go!
-
-<a href="https://www.jsmastery.pro/ultimate-next-course" target="_blank">
-<img src="https://i.ibb.co/804sPK6/Image-720.png" alt="Project Banner">
-</a>
 # xora
