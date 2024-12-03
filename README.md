@@ -975,7 +975,7 @@ export default Marker;
 
 ## <a name="links">🔗 Assets</a>
 
-Assets used in the project can be
+Assets used in the project can be :
 found [here](https://drive.google.com/file/d/1u-l3p3qCnrwmWq5-bG7OkfCXFPYM9t5z/view?usp=sharing)
 
 # xora
